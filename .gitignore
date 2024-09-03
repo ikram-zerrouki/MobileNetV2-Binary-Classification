@@ -1,0 +1,17 @@
+# Exclure les checkpoints des modèles
+*.h5
+*.keras
+
+# Exclure les fichiers de cache Python
+__pycache__/
+*.pyc
+
+# Exclure les fichiers temporaires ou systèmes
+.DS_Store
+.ipynb_checkpoints/
+
+# Exclure les fichiers de logs générés pendant l'exécution
+*.log
+
+# Exclure les fichiers ou dossiers spécifiques à Google Colab
+/content/drive/
